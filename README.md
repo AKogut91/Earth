@@ -1,5 +1,10 @@
 # Earth
-3D Earth! Make for fun)
+
+App using SceneKit, ARKit
+
+In this project make for fun)
+
+<a href="https://imgflip.com/gif/2n3h5t"/></a>
 
 
-https://imgflip.com/gif/2n3h5t
+
