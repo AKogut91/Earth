@@ -11,8 +11,9 @@
 		11C97A90203069B10079735C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C97A8F203069B10079735C /* art.scnassets */; };
 		11C97A92203069B10079735C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C97A91203069B10079735C /* ViewController.swift */; };
 		11C97A95203069B10079735C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C97A93203069B10079735C /* Main.storyboard */; };
-		11C97A97203069B10079735C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C97A96203069B10079735C /* Assets.xcassets */; };
 		11C97A9A203069B10079735C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C97A98203069B10079735C /* LaunchScreen.storyboard */; };
+		11C97AA2203077F10079735C /* ERButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C97AA1203077F10079735C /* ERButton.swift */; };
+		11C97AA4203085840079735C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C97AA3203085830079735C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		11C97A8F203069B10079735C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		11C97A91203069B10079735C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11C97A94203069B10079735C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11C97A96203069B10079735C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C97A99203069B10079735C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11C97A9B203069B10079735C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C97AA1203077F10079735C /* ERButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERButton.swift; sourceTree = "<group>"; };
+		11C97AA3203085830079735C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				11C97A8D203069B10079735C /* AppDelegate.swift */,
 				11C97A8F203069B10079735C /* art.scnassets */,
 				11C97A91203069B10079735C /* ViewController.swift */,
+				11C97AA1203077F10079735C /* ERButton.swift */,
 				11C97A93203069B10079735C /* Main.storyboard */,
-				11C97A96203069B10079735C /* Assets.xcassets */,
 				11C97A98203069B10079735C /* LaunchScreen.storyboard */,
+				11C97AA3203085830079735C /* Assets.xcassets */,
 				11C97A9B203069B10079735C /* Info.plist */,
 			);
 			path = Earth;
@@ -128,7 +131,7 @@
 			files = (
 				11C97A90203069B10079735C /* art.scnassets in Resources */,
 				11C97A9A203069B10079735C /* LaunchScreen.storyboard in Resources */,
-				11C97A97203069B10079735C /* Assets.xcassets in Resources */,
+				11C97AA4203085840079735C /* Assets.xcassets in Resources */,
 				11C97A95203069B10079735C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C97AA2203077F10079735C /* ERButton.swift in Sources */,
 				11C97A92203069B10079735C /* ViewController.swift in Sources */,
 				11C97A8E203069B10079735C /* AppDelegate.swift in Sources */,
 			);
@@ -279,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44B387YQ4J;
 				INFOPLIST_FILE = Earth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKogut.Earth;
@@ -293,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44B387YQ4J;
 				INFOPLIST_FILE = Earth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKogut.Earth;
